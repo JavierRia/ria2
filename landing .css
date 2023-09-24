@@ -1,0 +1,81 @@
+body{
+  background-image:url('https://chimerenicole.com/wp-content/uploads/2021/02/natural-hair.jpg') ;
+background-repeat: no-repeat;
+background-size:cover;
+background-attachment:fixed;
+background-position:center ;
+}
+.nav-bar{
+  background-color:rgb(171, 92, 18);
+margin: 0;
+height:50px;
+position: 
+
+
+
+
+}
+
+.home-page{
+  background-color: rgb(165, 130, 42);
+  display: block;
+  height:45rem;
+  width:45rem;
+  margin:50px;
+  margin-top:5rem; 
+  margin-left:10px;
+  backdrop-filter:blur(30px); 
+  text-align:center;
+}
+#programmer{
+  color:white;
+  font-size:20px;
+  padding-top:3rem;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+.Title{
+  font-size:60px;
+  color:white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align:center;
+ margin-top:0;
+}
+#sub-heading{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align:center;
+  padding-top:20px;
+  font-size:25px;
+  font-weight:300; 
+}
+#view-more{
+  font-size:27px;
+  color:white;
+  background-color: rgb(152, 79, 11);
+  border:1px solid bisque;
+  border-radius: 10px;
+  padding:15px;
+  margin-top:15px;
+  text-decoration: 1px underline;
+  
+}
+
+.wrapper{
+  display: flex;
+  margin-left: 50px;
+  margin-top: 100px;
+}
+
+.box-1,
+.box-2,
+.box-3
+{
+background-color:rgb(106, 109, 8);
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color:bisque;
+height:30rem;
+width:30rem;
+text-align: center;
+font-size:15px;
+display:inline-block;
+margin:50px;
+}
