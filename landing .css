@@ -76,9 +76,17 @@ display:flex;
 .wrapper{
   display: flex;
   margin-left: 50px;
-  margin-top: 100px;
+  margin-top: 10px;
 }
-
+.contact-info{
+  text-align:right;
+  margin-right:50px;
+margin-top:2.5rem;
+margin-bottom:0 ;
+color:aliceblue;
+font-size: 55px;
+text-decoration: underline;
+}
 .box-1,
 .box-2,
 .box-3
@@ -99,15 +107,48 @@ width:20rem;
 object-fit: contain;
 }
 .section1{
-  background-color:rgb(152, 79, 11, 0.3);;
+  background-color:rgb(152, 79, 11, 0.3);
   display: flex;
   justify-content: center;
   font-size: 20px;
   padding:15px;
   color:white;
-  
 }
-option value{
-  font-size: 1.5rem;
-  
+.hair-type1,.hair-type2,.hair-type3{
+  line-height:
+
 }
+.selector{
+/*(justify-content align things horatity)*/
+justify-content: center;
+/*align-*/
+align-items: center; 
+display:flex;
+flex-direction: column;
+color:white;
+font-size:30px;
+text-decoration: underline;
+}
+.list-value{
+  padding:20px 120px;
+  font-size:1.3rem;
+  font-weight:900;
+  border-radius: 8px;
+  font-size:30px;
+  color:rgb(106, 109, 8);
+}
+#section1-title{
+  color:aliceblue;
+  font-size: 50px;
+  text-align:left;
+  text-decoration: underline;
+}
+#submit-button{
+  font-size:30px;
+  margin:10px;
+  font-weight:800;
+  border-radius:20px;
+  border:none;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  
